@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/front.xml" value="0.2" />
+        <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/login.xml" value="0.2" />
+        <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/signup.xml" value="0.2" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TBPTB/app/src/main/res/drawable/form.xml" value="0.2125" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TBPTB/app/src/main/res/drawable/input.xml" value="0.21614583333333334" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TBPTB/app/src/main/res/drawable/shape.xml" value="0.10989583333333333" />

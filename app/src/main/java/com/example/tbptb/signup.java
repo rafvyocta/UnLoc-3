@@ -15,7 +15,7 @@ public class signup extends AppCompatActivity {
     }
 
     public void kembali(View view) {
-        startActivity(new Intent(this, MainActivity.class));
+        startActivity(new Intent(this, front.class));
         finish();
     }
 
