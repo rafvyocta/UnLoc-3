@@ -23,4 +23,9 @@ public class login extends AppCompatActivity {
         startActivity(new Intent(this, signup.class));
         finish();
     }
+
+    public void dashboard(View view) {
+        startActivity(new Intent(this, dashboard.class));
+        finish();
+    }
 }

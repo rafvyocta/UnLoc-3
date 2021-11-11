@@ -80,6 +80,7 @@
         android:backgroundTint="#57B894"
         android:fontFamily="@font/rm"
         android:text="Log In"
+        android:onClick="dashboard"
         android:textColor="#FFFFFF"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
