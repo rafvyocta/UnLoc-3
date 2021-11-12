@@ -109,8 +109,9 @@
         android:id="@+id/imageView100"
         android:layout_width="347dp"
         android:layout_height="432dp"
-        app:srcCompat="@drawable/FE"
+        app:srcCompat="@drawable/fe"
         tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="85dp" />
+        tools:layout_editor_absoluteY="85dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

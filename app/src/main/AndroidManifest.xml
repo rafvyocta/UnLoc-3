@@ -21,6 +21,12 @@
         <activity android:name=".signup"></activity>
         <activity android:name=".dashboard"></activity>
         <activity android:name=".rute"></activity>
+        <activity android:name=".profil"></activity>
+        <activity android:name=".chat"></activity>
+        <activity android:name=".peminjaman_gedung"></activity>
+        <activity android:name=".info_fasilitas"></activity>
+        <activity android:name=".bookmark"></activity>
+
     </application>
 
 </manifest>

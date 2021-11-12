@@ -97,7 +97,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.342"
-        app:srcCompat="@drawable/bc" />
+        app:srcCompat="@drawable/gedungkuliah" />
 
     <EditText
         android:id="@+id/editTextTextPersonName18"
