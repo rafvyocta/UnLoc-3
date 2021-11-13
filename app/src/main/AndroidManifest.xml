@@ -26,6 +26,9 @@
         <activity android:name=".peminjaman_gedung"></activity>
         <activity android:name=".info_fasilitas"></activity>
         <activity android:name=".bookmark"></activity>
+        <activity android:name=".chat_1"></activity>
+        <activity android:name=".pemesanan_gedung"></activity>
+        <activity android:name=".detail_pemesanan_gedung"></activity>
 
     </application>
 
