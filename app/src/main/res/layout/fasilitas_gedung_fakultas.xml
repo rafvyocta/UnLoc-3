@@ -21,6 +21,7 @@
         android:id="@+id/imageView95"
         android:layout_width="43dp"
         android:layout_height="39dp"
+        android:onClick="back_info_fasilitas"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.019"
@@ -35,13 +36,13 @@
         android:layout_height="wrap_content"
         android:text="Fasilitas Gedung Fakultas"
         android:textColor="#FFFFFF"
-        android:textSize="30dp"
+        android:textSize="28dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.757"
+        app:layout_constraintHorizontal_bias="0.651"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.036" />
+        app:layout_constraintVertical_bias="0.037" />
 
     <TextView
         android:id="@+id/textView65"
@@ -99,19 +100,23 @@
         android:textSize="13dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.923"
+        app:layout_constraintVertical_bias="0.903"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageView
         android:id="@+id/imageView100"
         android:layout_width="347dp"
         android:layout_height="432dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24"
         app:srcCompat="@drawable/fe"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="85dp"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

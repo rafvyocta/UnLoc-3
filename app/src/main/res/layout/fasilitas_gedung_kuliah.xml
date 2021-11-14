@@ -21,6 +21,7 @@
         android:id="@+id/imageView95"
         android:layout_width="43dp"
         android:layout_height="39dp"
+        android:onClick="back_info_fasilitas"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.043"

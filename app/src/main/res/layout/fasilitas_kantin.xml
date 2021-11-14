@@ -33,6 +33,7 @@
         android:id="@+id/imageView75"
         android:layout_width="43dp"
         android:layout_height="39dp"
+        android:onClick="back_info_fasilitas"
         android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
