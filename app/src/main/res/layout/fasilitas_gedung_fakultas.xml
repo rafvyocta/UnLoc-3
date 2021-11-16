@@ -109,8 +109,12 @@
         android:id="@+id/imageView100"
         android:layout_width="347dp"
         android:layout_height="432dp"
-        app:srcCompat="@drawable/FE"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="85dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25"
+        app:srcCompat="@drawable/FE" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
