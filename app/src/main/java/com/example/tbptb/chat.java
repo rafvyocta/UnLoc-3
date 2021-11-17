@@ -6,22 +6,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class dashboard extends AppCompatActivity {
+public class chat extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.dashboard);
-    }
-
-    public void rute(View view) {
-        startActivity(new Intent(this, rute.class));
-        finish();
-    }
-
-    public void profil(View view) {
-        startActivity(new Intent(this, profil.class));
-        finish();
+        setContentView(R.layout.chat);
     }
 
     public void dashboard(View view) {
@@ -44,6 +34,11 @@ public class dashboard extends AppCompatActivity {
     }
     public void bookmark(View view) {
         startActivity(new Intent(this, bookmark.class));
+        finish();
+    }
+
+    public void chat_1(View view) {
+        startActivity(new Intent(this, chat_1.class));
         finish();
     }
 }

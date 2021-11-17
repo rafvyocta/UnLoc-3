@@ -74,19 +74,6 @@
         app:layout_constraintVertical_bias="0.179"
         tools:ignore="TouchTargetSizeCheck" />
 
-    <ImageView
-        android:id="@+id/imageView98"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.918"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.179"
-        app:srcCompat="@drawable/pilihan"
-        app:tint="#000000" />
-
     <EditText
         android:id="@+id/editTextTextPersonName18"
         android:layout_width="350dp"
@@ -106,15 +93,27 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageView
-        android:id="@+id/imageView100"
-        android:layout_width="347dp"
-        android:layout_height="432dp"
+        android:id="@+id/imageView98"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintHorizontal_bias="0.918"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.25"
-        app:srcCompat="@drawable/FE" />
+        app:layout_constraintVertical_bias="0.179"
+        app:srcCompat="@drawable/pilihan"
+        app:tint="#000000" />
+
+    <ImageView
+        android:id="@+id/imageView53"
+        android:layout_width="345dp"
+        android:layout_height="438dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.249"
+        app:srcCompat="@drawable/fe" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

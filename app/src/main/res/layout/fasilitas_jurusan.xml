@@ -21,6 +21,7 @@
         android:id="@+id/imageView95"
         android:layout_width="43dp"
         android:layout_height="39dp"
+        android:onClick="back_info_fasilitas"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.043"
@@ -97,7 +98,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.342"
-        app:srcCompat="@drawable/bc" />
+        app:srcCompat="@drawable/jurusansisteminformasi" />
 
     <EditText
         android:id="@+id/editTextTextPersonName18"

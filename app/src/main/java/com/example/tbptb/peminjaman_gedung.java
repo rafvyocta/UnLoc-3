@@ -6,24 +6,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class dashboard extends AppCompatActivity {
+public class peminjaman_gedung extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.dashboard);
+        setContentView(R.layout.peminjaman_gedung);
     }
-
-    public void rute(View view) {
-        startActivity(new Intent(this, rute.class));
-        finish();
-    }
-
-    public void profil(View view) {
-        startActivity(new Intent(this, profil.class));
-        finish();
-    }
-
     public void dashboard(View view) {
         startActivity(new Intent(this, dashboard.class));
         finish();
@@ -44,6 +33,16 @@ public class dashboard extends AppCompatActivity {
     }
     public void bookmark(View view) {
         startActivity(new Intent(this, bookmark.class));
+        finish();
+    }
+
+    public void back(View view) {
+        startActivity(new Intent(this, dashboard.class));
+        finish();
+    }
+
+    public void pemesanan_gedung(View view) {
+        startActivity(new Intent(this, pemesanan_gedung.class));
         finish();
     }
 }
