@@ -42,15 +42,15 @@ public class bookmark_data extends AppCompatActivity {
 
     public ArrayList<kelas> generateData(){
         ArrayList<kelas> listkelas = new ArrayList<>();
-        listkelas.add(new kelas("Gedung A");
-        listkelas.add(new kelas("Gedung B");
-        listkelas.add(new kelas("Gedung C");
-        listkelas.add(new kelas("Gedung D");
-        listkelas.add(new kelas("Gedung E");
-        listkelas.add(new kelas("Gedung F");
-        listkelas.add(new kelas("Gedung G");
-        listkelas.add(new kelas("Gedung H");
-        listkelas.add(new kelas("Gedung I");
+        listkelas.add(new kelas("Gedung A"));
+        listkelas.add(new kelas("Gedung B"));
+        listkelas.add(new kelas("Gedung C"));
+        listkelas.add(new kelas("Gedung D"));
+        listkelas.add(new kelas("Gedung E"));
+        listkelas.add(new kelas("Gedung F"));
+        listkelas.add(new kelas("Gedung G"));
+        listkelas.add(new kelas("Gedung H"));
+        listkelas.add(new kelas("Gedung I"));
 
         return listkelas;
 
