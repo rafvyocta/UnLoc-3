@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="2dp"
+    app:cardBackgroundColor="#95DF98"
     app:cardElevation="10dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -18,33 +19,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
             android:text="Gedung H2.4"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/textKelas"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:text="Kelas PTB"
-            app:layout_constraintStart_toStartOf="@+id/textLokasi"
-            app:layout_constraintTop_toBottomOf="@+id/textLokasi" />
-
-        <TextView
-            android:id="@+id/textView72"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="8dp"
-            android:text="Husnil Kamil"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="@+id/textKelas"
-            app:layout_constraintTop_toBottomOf="@+id/textKelas" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
