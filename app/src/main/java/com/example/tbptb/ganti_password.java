@@ -6,16 +6,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class rute extends AppCompatActivity {
+public class ganti_password extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.rute);
+        setContentView(R.layout.ganti_password);
     }
 
-    public void back_dashboard(View view) {
-        startActivity(new Intent(this, dashboard.class));
+    public void back_profil(View view) {
+        startActivity(new Intent(this, profil.class));
         finish();
     }
+
 }
