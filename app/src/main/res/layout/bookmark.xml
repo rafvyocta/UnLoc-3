@@ -111,7 +111,7 @@
         android:id="@+id/imageView70"
         android:layout_width="415dp"
         android:layout_height="55dp"
-        android:onClick="back_bookmark"
+        android:onClick="bookmark_data"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.25"

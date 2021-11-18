@@ -8,10 +8,11 @@
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/drawable/car.xml" value="0.10989583333333333" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/drawable/ic_baseline_arrow_upward_24.xml" value="0.10989583333333333" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.10989583333333333" />
+        <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/drawable/input.xml" value="0.21614583333333334" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/drawable/peminjaman_gedung.xml" value="0.21614583333333334" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/drawable/walk.xml" value="0.10989583333333333" />
-        <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/bookmark.xml" value="0.5" />
-        <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/bookmark_data.xml" value="0.2" />
+        <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/bookmark.xml" value="0.46605504587155966" />
+        <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/bookmark_data.xml" value="0.22" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/chat.xml" value="0.2" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/chat_1.xml" value="0.2" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/dashboard.xml" value="0.2" />
@@ -23,6 +24,7 @@
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/fasilitas_lapangan.xml" value="0.3333333333333333" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/fasilitas_umum_lain.xml" value="0.6" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/info_fasilitas.xml" value="0.22" />
+        <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/item_bookmark.xml" value="0.18666666666666668" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/login.xml" value="0.1" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/pemesanan_gedung.xml" value="0.3333333333333333" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/peminjaman_gedung.xml" value="0.3333333333333333" />
