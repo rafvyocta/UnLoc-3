@@ -6,12 +6,31 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class dashboard extends AppCompatActivity {
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
 
+public class dashboard extends AppCompatActivity implements OnMapReadyCallback {
+    GoogleMap map;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dashboard);
+
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
+                .findFragmentById(R.id.map);
+        mapFragment.getMapAsync(this);
+    }
+
+    public void onMapReady(GoogleMap googleMap){
+        map = googleMap;
+
+        LatLng fti = new LatLng(-0.915665, 100.461321);
+        map.addMarker(new MarkerOptions().position(fti).title("FTI"));
+        map.moveCamera(CameraUpdateFactory.newLatLng(fti));
     }
 
     public void rute(View view) {
@@ -45,5 +64,10 @@ public class dashboard extends AppCompatActivity {
     public void bookmark(View view) {
         startActivity(new Intent(this, bookmark.class));
         finish();
+    }
+
+    @Override
+    public void onPointerCaptureChanged(boolean hasCapture) {
+        
     }
 }

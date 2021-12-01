@@ -61,17 +61,7 @@
         app:layout_constraintVertical_bias="0.052"
         app:srcCompat="@drawable/clear" />
 
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Map UNAND"
-        android:textSize="35dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.428" />
+
 
     <ImageView
         android:id="@+id/imageView5"
@@ -169,4 +159,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.837"
         app:srcCompat="@drawable/rute" />
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="365dp"
+        android:layout_height="417dp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="86dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
