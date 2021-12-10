@@ -6,15 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class peminjaman_gedung extends AppCompatActivity {
+public class menu_utama extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.peminjaman_gedung);
+        setContentView(R.layout.menu_utama);
     }
-    public void menu_utama(View view) {
-        startActivity(new Intent(this, menu_utama.class));
+
+    public void dashboard(View view) {
+        startActivity(new Intent(this, dashboard.class));
         finish();
     }
 
@@ -33,16 +34,6 @@ public class peminjaman_gedung extends AppCompatActivity {
     }
     public void bookmark(View view) {
         startActivity(new Intent(this, bookmark.class));
-        finish();
-    }
-
-    public void back(View view) {
-        startActivity(new Intent(this, dashboard.class));
-        finish();
-    }
-
-    public void pemesanan_gedung(View view) {
-        startActivity(new Intent(this, pemesanan_gedung.class));
         finish();
     }
 }

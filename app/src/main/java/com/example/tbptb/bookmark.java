@@ -14,8 +14,8 @@ public class bookmark extends AppCompatActivity {
         setContentView(R.layout.bookmark);
     }
 
-    public void dashboard(View view) {
-        startActivity(new Intent(this, dashboard.class));
+    public void menu_utama(View view) {
+        startActivity(new Intent(this, menu_utama.class));
         finish();
     }
 

@@ -37,6 +37,7 @@
         <activity android:name=".fasilitas_lapangan"></activity>
         <activity android:name=".fasilitas_umum_lain"></activity>
         <activity android:name=".bookmark_data"></activity>
+        <activity android:name=".menu_utama"></activity>
 
     </application>
 

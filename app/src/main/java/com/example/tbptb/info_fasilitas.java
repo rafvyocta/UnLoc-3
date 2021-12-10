@@ -14,8 +14,8 @@ public class info_fasilitas extends AppCompatActivity {
         setContentView(R.layout.info_fasilitas);
     }
 
-    public void dashboard(View view) {
-        startActivity(new Intent(this, dashboard.class));
+    public void menu_utama(View view) {
+        startActivity(new Intent(this, menu_utama.class));
         finish();
     }
 
