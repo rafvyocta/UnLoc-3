@@ -14,8 +14,8 @@ public class menu_utama extends AppCompatActivity {
         setContentView(R.layout.menu_utama);
     }
 
-    public void dashboard(View view) {
-        startActivity(new Intent(this, dashboard.class));
+    public void map(View view) {
+        startActivity(new Intent(this, map.class));
         finish();
     }
 

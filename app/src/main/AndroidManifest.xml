@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.tbptb">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +13,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TBPTB">
+
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAPAypv5qU04QnXmCWLWYdRsMW3XW7E8OE"/>
+
         <activity
             android:name=".front"
             android:exported="true">
@@ -38,6 +46,7 @@
         <activity android:name=".fasilitas_umum_lain"></activity>
         <activity android:name=".bookmark_data"></activity>
         <activity android:name=".menu_utama"></activity>
+        <activity android:name=".map"></activity>
 
     </application>
 
