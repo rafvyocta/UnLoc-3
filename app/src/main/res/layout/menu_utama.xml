@@ -55,7 +55,7 @@
 
     <ImageView
         android:id="@+id/imageView15"
-        android:layout_width="150dp"
+        android:layout_width="151dp"
         android:layout_height="100dp"
         android:onClick="chat"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -68,7 +68,7 @@
 
     <ImageView
         android:id="@+id/imageView16"
-        android:layout_width="150dp"
+        android:layout_width="151dp"
         android:layout_height="100dp"
         android:onClick="peminjaman_gedung"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -81,7 +81,7 @@
 
     <ImageView
         android:id="@+id/imageView17"
-        android:layout_width="150dp"
+        android:layout_width="151dp"
         android:layout_height="100dp"
         android:onClick="info_fasilitas"
         app:layout_constraintBottom_toBottomOf="@+id/imageView13"
@@ -94,7 +94,7 @@
 
     <ImageView
         android:id="@+id/imageView34"
-        android:layout_width="150dp"
+        android:layout_width="151dp"
         android:layout_height="100dp"
         android:onClick="bookmark"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -107,7 +107,7 @@
 
     <ImageView
         android:id="@+id/imageView115"
-        android:layout_width="150dp"
+        android:layout_width="151dp"
         android:layout_height="100dp"
         android:onClick="map"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -184,31 +184,31 @@
         android:id="@+id/textView39"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="chat"
         android:text="Chat"
         android:textColor="@color/white"
-        android:onClick="chat"
-        android:textSize="24dp"
+        android:textSize="22dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView13"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.221"
+        app:layout_constraintHorizontal_bias="0.23"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.37" />
+        app:layout_constraintVertical_bias="0.369" />
 
     <TextView
         android:id="@+id/textView40"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pinjam Gedung"
         android:onClick="peminjaman_gedung"
+        android:text="Pinjam Gedung"
         android:textColor="@color/white"
         android:textSize="22dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintHorizontal_bias="0.869"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.372" />
+        app:layout_constraintVertical_bias="0.369" />
 
     <TextView
         android:id="@+id/textView41"
@@ -217,7 +217,7 @@
         android:text="Fasilitas"
         android:onClick="info_fasilitas"
         android:textColor="@color/white"
-        android:textSize="24dp"
+        android:textSize="22dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.204"
@@ -229,16 +229,16 @@
         android:id="@+id/textView70"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="bookmark"
         android:text="Bookmark"
         android:textColor="@color/white"
-        android:textSize="24dp"
-        android:onClick="bookmark"
+        android:textSize="22dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintHorizontal_bias="0.816"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.555" />
+        app:layout_constraintVertical_bias="0.553" />
 
     <TextView
         android:id="@+id/textView71"
@@ -246,7 +246,7 @@
         android:layout_height="wrap_content"
         android:text="Map"
         android:textColor="@color/white"
-        android:textSize="24dp"
+        android:textSize="22dp"
         android:onClick="map"
         app:layout_constraintBottom_toBottomOf="@+id/imageView13"
         app:layout_constraintEnd_toEndOf="parent"
