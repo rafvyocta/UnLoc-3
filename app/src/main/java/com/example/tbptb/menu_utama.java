@@ -36,4 +36,8 @@ public class menu_utama extends AppCompatActivity {
         startActivity(new Intent(this, bookmark.class));
         finish();
     }
+    public void profil(View view) {
+        startActivity(new Intent(this, profil.class));
+        finish();
+    }
 }

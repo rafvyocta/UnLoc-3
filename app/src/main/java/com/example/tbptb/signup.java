@@ -72,7 +72,6 @@ public class signup extends AppCompatActivity {
             message.enqueue(new Callback<MessageClass>() {
                 @Override
                 public void onResponse(Call<MessageClass> call, Response<MessageClass> response) {
-
                     if(response.code() == 200){
                         if(response.isSuccessful()){
                             Toast.makeText(getApplicationContext(), response.body().getMessage(), Toast.LENGTH_SHORT).show();
@@ -82,18 +81,6 @@ public class signup extends AppCompatActivity {
                             finish();
                         }
                     }
-                    else{
-
-                        Log.i("pesan",String.valueOf(response.errorBody()));
-                        try {
-                            JSONObject jsonObject = new JSONObject(response.errorBody().string());
-                            System.out.println(jsonObject.getString("message"));
-                        } catch (JSONException | IOException e) {
-                            e.printStackTrace();
-                        }
-                    }
-//                MessageClass messageClass = response.body();
-
                 }
 
                 @Override
