@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/drawable/back.xml" value="0.10989583333333333" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/drawable/back_rute.xml" value="0.10989583333333333" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/drawable/bookmark.xml" value="0.10989583333333333" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/drawable/car.xml" value="0.10989583333333333" />
@@ -11,7 +12,7 @@
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/drawable/input.xml" value="0.21614583333333334" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/drawable/peminjaman_gedung.xml" value="0.21614583333333334" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/drawable/walk.xml" value="0.10989583333333333" />
-        <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/bookmark.xml" value="0.46605504587155966" />
+        <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/bookmark.xml" value="0.4466666666666667" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/bookmark_data.xml" value="0.22" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/chat.xml" value="0.2" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/chat_1.xml" value="0.2" />
@@ -23,12 +24,19 @@
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/fasilitas_kantin.xml" value="0.1" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/fasilitas_lapangan.xml" value="0.3333333333333333" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/fasilitas_umum_lain.xml" value="0.6" />
+        <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/fragment_map.xml" value="0.2" />
+        <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/front.xml" value="0.2" />
+        <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/ganti_password.xml" value="0.2" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/info_fasilitas.xml" value="0.22" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/item_bookmark.xml" value="0.18666666666666668" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/login.xml" value="0.1" />
+        <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/map.xml" value="0.22" />
+        <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/menu_utama.xml" value="0.22" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/pemesanan_gedung.xml" value="0.3333333333333333" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/peminjaman_gedung.xml" value="0.3333333333333333" />
+        <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/profil.xml" value="0.2" />
         <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/rute.xml" value="0.2" />
+        <entry key="..\:/Kuliah/PTB/UnLoc-3/app/src/main/res/layout/signup.xml" value="0.2" />
         <entry key="..\:/Kuliah/S5/PTB/UnLoc-3/app/src/main/res/drawable/chevron.xml" value="0.2755208333333333" />
         <entry key="..\:/Kuliah/S5/PTB/UnLoc-3/app/src/main/res/drawable/form.xml" value="0.23796296296296296" />
         <entry key="..\:/Kuliah/S5/PTB/UnLoc-3/app/src/main/res/drawable/info.xml" value="0.23796296296296296" />
@@ -67,17 +75,8 @@
         <entry key="..\:/KuliahSMT5/Pemrograman Teknologi Bergerak/TB/UnLoc-3/app/src/main/res/layout/pemesanan_gedung.xml" value="0.25" />
         <entry key="..\:/KuliahSMT5/Pemrograman Teknologi Bergerak/TB/UnLoc-3/app/src/main/res/layout/peminjaman_gedung.xml" value="0.209375" />
         <entry key="..\:/KuliahSMT5/Pemrograman Teknologi Bergerak/TB/UnLoc-3/app/src/main/res/layout/profil.xml" value="0.209375" />
-        <entry key="..\:/Repo Github/UnLoc-3/app/src/main/res/layout/bookmark.xml" value="0.3265625" />
-        <entry key="..\:/Repo Github/UnLoc-3/app/src/main/res/layout/bookmark_data.xml" value="0.3265625" />
         <entry key="..\:/Repo Github/UnLoc-3/app/src/main/res/layout/dashboard.xml" value="0.38697916666666665" />
-        <entry key="..\:/Repo Github/UnLoc-3/app/src/main/res/layout/fasilitas_gedung_kuliah.xml" value="0.38697916666666665" />
-        <entry key="..\:/Repo Github/UnLoc-3/app/src/main/res/layout/front.xml" value="0.17239583333333333" />
-        <entry key="..\:/Repo Github/UnLoc-3/app/src/main/res/layout/item_bookmark.xml" value="0.38697916666666665" />
-        <entry key="..\:/Repo Github/UnLoc-3/app/src/main/res/layout/login.xml" value="0.33" />
-        <entry key="..\:/Repo Github/UnLoc-3/app/src/main/res/layout/map.xml" value="0.3265625" />
         <entry key="..\:/Repo Github/UnLoc-3/app/src/main/res/layout/menu_utama.xml" value="0.38697916666666665" />
-        <entry key="..\:/Repo Github/UnLoc-3/app/src/main/res/layout/profil.xml" value="0.33" />
-        <entry key="..\:/Repo Github/UnLoc-3/app/src/main/res/layout/signup.xml" value="0.33" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TBPTB/app/src/main/res/drawable/form.xml" value="0.2125" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TBPTB/app/src/main/res/drawable/input.xml" value="0.21614583333333334" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TBPTB/app/src/main/res/drawable/logo.xml" value="0.10989583333333333" />

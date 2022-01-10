@@ -83,5 +83,9 @@ public class map extends FragmentActivity implements OnMapReadyCallback {
                 break;
         }
     }
+    public void back_menu_utama(View view) {
+        startActivity(new Intent(this, menu_utama.class));
+        finish();
+    }
 
 }
