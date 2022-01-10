@@ -181,19 +181,19 @@
 
     <EditText
         android:id="@+id/editTextTextNohp"
-        android:layout_width="wrap_content"
+        android:layout_width="275dp"
         android:layout_height="50dp"
         android:background="@drawable/form"
         android:ems="10"
+        android:hint="No.HP"
         android:inputType="number"
         android:paddingLeft="15dp"
-        android:hint="No.HP"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.348"
+        app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.559" />
+        app:layout_constraintVertical_bias="0.56" />
 
     <ProgressBar
         android:id="@+id/progressBar3"
