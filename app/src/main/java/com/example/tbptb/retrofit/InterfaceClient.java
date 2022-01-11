@@ -20,4 +20,8 @@ public interface InterfaceClient {
 
     @POST("/logout")
     Call<MessageClass> logout(@Header("api_token") String token);
+
+    @FormUrlEncoded
+    @POST("/gantipassword")
+    Call<MessageClass> gantipassword(@Header("api_token") String token, @Field("password") String password);
 }
